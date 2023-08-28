@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AFFC051C-2DA8-4B97-9F74-21847DD2A474"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A28B6354-802C-42D1-ADC6-C49D97AF4BE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPhoto/MainModule/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A28B6354-802C-42D1-ADC6-C49D97AF4BE5 - dc01fceb9cb9d94d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPhoto.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MyPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bulat/Desktop/MyPhoto/MyPhoto/MainModule/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "A28B6354-802C-42D1-ADC6-C49D97AF4BE5 - 28c180f5f3aed3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MyPhoto.ImageModel&gt;) -&gt; () in MyPhoto.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MyPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bulat/Desktop/MyPhoto/MyPhoto/MainModule/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A7D3542-860F-482B-BBDE-A58DFDCC16D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPhoto/MainModule/TableManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E9D1935-82E0-4CE4-81BE-93D79387CAF4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPhoto/MainModule/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "init(presenter:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1E9D1935-82E0-4CE4-81BE-93D79387CAF4 - a3ba28a3b4794fe7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPhoto.ViewController.__allocating_init(presenter: MyPhoto.MainPresenter) -&gt; MyPhoto.ViewController"
+                  moduleName = "MyPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bulat/Desktop/MyPhoto/MyPhoto/MainModule/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "1E9D1935-82E0-4CE4-81BE-93D79387CAF4 - 786eaebd3ffbe9c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPhoto.ViewController.init(presenter: MyPhoto.MainPresenter) -&gt; MyPhoto.ViewController"
+                  moduleName = "MyPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bulat/Desktop/MyPhoto/MyPhoto/MainModule/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F1DB162-582C-4412-91AD-9F15680E9CC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPhoto/Networkmanager/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
