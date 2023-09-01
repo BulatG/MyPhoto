@@ -7,35 +7,50 @@
 
 import Foundation
 
-
-
 class NetworkManager {
     
+    // MARK: - Properties
+        
     static let shared = NetworkManager()
     
+    // MARK: - Public methods
+    
     func fetchData(completion: @escaping (Model) -> Void) {
-        if let url = URL(string: "https://jsonplaceholder.typicode.com/photos") {
+        if let url = URL(string: Constants.url) {
             
             let session = URLSession.shared
             
             let task = session.dataTask(with: url) { data, response, error in
                 if let error = error {
-                    print("Ошибка: \(error)")
+                    print("\(Constants.error): \(error)")
                 }
                 
                 if let data = data {
                     do {
                         let decoder = JSONDecoder()
-                        print("начало парсинга")
+                        
                         let items = try decoder.decode(Model.self, from: data)
-                        completion(items)
+                        DispatchQueue.main.async {
+                            completion(items)
+                        }
                     } catch {
-                        print("Ошибка парсинга JSON: \(error)")
+                        print("\(Constants.parsingError) \(error)")
                     }
                 }
             }
             task.resume()
         }
         
+    }
+    
+}
+
+// MARK:- Constants
+
+private extension NetworkManager {
+    enum Constants {
+        static let url: String = "https://jsonplaceholder.typicode.com/photos"
+        static let parsingError: String = "Ошибка парсинга JSON:"
+        static let error: String = "Ошибка"
     }
 }

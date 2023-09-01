@@ -12,21 +12,17 @@ protocol ManageTableProtocol: UITableViewDelegate, UITableViewDataSource {
 }
 
 class TableManager:NSObject, ManageTableProtocol {
-    
+        
 // MARK: - Properties
     
     var imageModel: Model = []
-        
+    
 }
 
 
 // MARK: - Public Methods
 
 extension TableManager {
-    
-    func configureCells(model: Model) {
-        imageModel = model
-    }
         
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return imageModel.count
@@ -42,16 +38,4 @@ extension TableManager {
     }
 }
 
-// MARK: - Private methods
 
-extension TableManager {
-    
-}
-
-// MARK: - Constants
-
-private extension TableManager {
-    enum Constants {
-        static let indentifier: String = "MainPageCell"
-    }
-}
